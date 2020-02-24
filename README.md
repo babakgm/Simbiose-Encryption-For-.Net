@@ -7,13 +7,17 @@ Use Simbiose Encryption  In .Net - Encryption is a simple way to encrypt and dec
 
 
 1. Add Encryption.vb For **Visual Basic** and Encryption.cs Fro **C#** To Your Project <br>
-2. Put Your Key and Iv In File <br>
+2. Replace Your Key and Iv instead of "Put Your..." <br>
 3. Create Object From Encryption <br>
 4. Use Encrypt/Decrypt Method <br>
 5. Have Good Time<br>
 
 # Smaple Code
 
-'''VB
-Dim AE As New AndroidEncrypt
+```VB
+Dim Object As New MyCryptoClass
+decryptedString = AE.encryptedString("Someting..")
+
+```C#
+Dim Object As New MyCryptoClass
 decryptedString = AE.encryptedString("Someting..")
