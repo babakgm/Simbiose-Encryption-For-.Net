@@ -10,7 +10,7 @@ Use Simbiose Encryption  In .Net - Encryption is a simple way to encrypt and dec
 2. Replace Your Key and Iv instead of "Put Your..." <br>
 3. Create Object From Encryption <br>
 4. Use Encrypt/Decrypt Method <br>
-5. Have Good Time<br>
+
 
 # Smaple Code
 #### Visual Basic
@@ -24,5 +24,8 @@ decryptedString = Object.encryptedString("Someting..")
 MyCryptoClass Object =  new MyCryptoClass
 decryptedString = Object.encryptedString("Someting..")
 ```
-
+```
 > Never Forget Use Same **Key/Salt** For Both Java/Andndrod and .Net Project 
+
+
+#Have Good Time
