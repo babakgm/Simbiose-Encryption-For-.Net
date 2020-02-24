@@ -20,7 +20,9 @@ decryptedString = Object.encryptedString("Someting..")
 
 ```
 #### C#
-```csharp-interactive
- MyCryptoClass Object =  new MyCryptoClass
+```csharp
+MyCryptoClass Object =  new MyCryptoClass
 decryptedString = Object.encryptedString("Someting..")
 ```
+
+##### Never Forget Use Same **Key/Salt** For Both Java/Andndrod and .Net Project 
