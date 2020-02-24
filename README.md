@@ -6,9 +6,14 @@ Use Simbiose Encryption  In .Net - Encryption is a simple way to encrypt and dec
 # How To Use
 
 
-1. Add Encryption.vb For Visual Basic and Encryption.cs Fro C# To Your Project <br>
-2. Create Object From Encryption <br>
-3. Use Encrypt/Decrypt Method <br>
-4. Have Good Time<br>
+1. Add Encryption.vb For **Visual Basic** and Encryption.cs Fro **C#** To Your Project <br>
+2. Put Your Key and Iv In File <br>
+3. Create Object From Encryption <br>
+4. Use Encrypt/Decrypt Method <br>
+5. Have Good Time<br>
 
-Sample Code
+# Smaple Code
+
+'''VB
+Dim AE As New AndroidEncrypt
+decryptedString = AE.encryptedString("Someting..")
