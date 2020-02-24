@@ -24,8 +24,7 @@ decryptedString = Object.encryptedString("Someting..")
 MyCryptoClass Object =  new MyCryptoClass
 decryptedString = Object.encryptedString("Someting..")
 ```
+* *Never Forget Use Same **Key/Salt** For Both Java/Andndrod and .Net Project* *
 
-* * Never Forget Use Same **Key/Salt** For Both Java/Andndrod and .Net Project * *
 
-
-#Have Good Time
+# Have Good Time
