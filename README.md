@@ -13,11 +13,14 @@ Use Simbiose Encryption  In .Net - Encryption is a simple way to encrypt and dec
 5. Have Good Time<br>
 
 # Smaple Code
-
-```VB
+#### Visual Basic
+```vb
 Dim Object As New MyCryptoClass
-decryptedString = AE.encryptedString("Someting..")
+decryptedString = Object.encryptedString("Someting..")
 
-```C#
-Dim Object As New MyCryptoClass
-decryptedString = AE.encryptedString("Someting..")
+```
+#### C#
+```csharp-interactive
+ MyCryptoClass Object =  new MyCryptoClass
+decryptedString = Object.encryptedString("Someting..")
+```
